@@ -1,0 +1,810 @@
+/* CSS files add styling rules to your content */
+html{
+  background: url(https://cdn.glitch.com/7cac8bfd-ff0c-4dbd-a9c2-935545fb5c0f%2Ffooter-background.png?v=1596769578403) no-repeat;
+  background-position: bottom;
+  background-size: 110%;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 0.5%;
+  padding-right: 10%;
+  font-family: "Mali", cursive;
+  float: left;
+}
+
+/* index styling*/
+#welcome {
+  font-size: 30pt;
+  margin: 0;
+  text-align: left;
+  font-family: "Zilla Slab", serif;
+  margin-top: 4%;
+}
+/*testing 1, 2, 3*/
+.collegeCloud {
+  font-size: 120%;
+}
+.intro {
+  background-color: #f8d6bd;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: left;
+  width: 92%;
+  overflow: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+/*Start creator styling*/
+
+.creatorsTitle {
+  text-align: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 97%;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+  margin-top: 0;
+}
+
+.cardLong {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  margin-left: 8%;
+}
+
+.missionP {
+  text-align: left;
+  margin: 0;
+  float: left;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+}
+
+.titleMission {
+  font-size: 30pt;
+  margin: 0;
+  text-align: left;
+  font-family: "Zilla Slab", serif;
+}
+
+.cardHome {
+  text-align: left;
+  width: 33%;
+  overflow: auto;
+  margin-top: 2%;
+}
+
+.names {
+  text-align: left;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Creators intro paragraph styling*/
+.about {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  max-width: 50%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+}
+
+/*Creator #1*/
+#mirandaImg {
+  height: 55%;
+  width: 60%;
+  border-radius: 5%;
+  object-fit: cover;
+
+}
+
+/*Creator #2*/
+#ingridImg {
+  height: 55%;
+  width: 59%;
+  border-radius: 5%;
+  object-fit: cover;
+
+}
+/*Creator #3*/
+#mansiImg {
+  height: 55%;
+  width: 60%;
+  border-radius: 5%;
+  object-fit: cover;
+}
+/*End creator styling*/
+/*End index styling*/
+/* universal nav on all pages */
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  display: flex;
+  align-items: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15pt;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #b5b5b5;
+}
+
+.pathBtn {
+  border-style: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15pt;
+  color: black;
+}
+
+.pathBtn:hover {
+  color: #b5b5b5;
+  font-size: 15pt;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* things in dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 40%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10% 15%;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/* end universal nav on all pages */
+h3 {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 1%;
+  padding-right: 10%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  float: left;
+}
+
+.imgResize {
+  width: 50%;
+  float: center
+}
+
+.imgLargeResize{
+  width: 30%;
+  margin: 3%;
+}
+
+.imgLargeResize2{
+  width:31%;
+  margin: 3%;
+  
+}
+
+
+
+
+
+.picRight {
+  float: right;
+}
+
+.large {
+  font-size: 24pt;
+}
+.center {
+  text-align: center;
+  float: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+}
+
+.activitiesText {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.listAct {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* template for pathways */
+.titlePaths {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+}
+
+#courses {
+  margin-bottom: 100%;
+}
+#courses1 {
+  margin-bottom: 30%;
+}
+
+.card {
+  background-color: #f8d6bd;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  width: 90%;
+  overflow: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.headingPaths {
+  font-size: 25pt;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+  margin-top: 2%;
+}
+
+.scheduleText {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 13.5pt;
+}
+
+.scheduleChart {
+  width: 100%;
+  height: 100%;
+}
+
+/* end template for pathways */
+
+/* CSS for Testing.html page begins */
+
+/* Styling for accordian type button*/
+.folding {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 10%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 150%;
+  transition: 0.5s;
+  font-family: "Zilla Slab", serif;
+}
+/*Highlights drop down menus on hover*/
+.active,
+.folding:hover {
+  background-color: #ccc;
+}
+.folding:after {
+  content: "\02795"; /*unicode for plus sign*/
+  font-size: 50%;
+  color: #777;
+  float: right;
+  margin-left: 2%;
+  border: none;
+}
+.active:after {
+  content: "\2796";
+}
+/*Styling for text under drop down*/
+.board {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+/*Description formating in AP questions*/
+div.desc {
+  padding: 15%;
+  text-align: center;
+}
+
+/*Question tabs*/
+.responsive {
+  padding-left: 6%;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700%) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6% 0;
+  }
+}
+
+@media only screen and (max-width: 200%) {
+  .responsive {
+    width: 100%;
+  }
+}
+.apExams {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+.apQuestions {
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.titleTest {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+}
+
+#courses {
+  margin: auto;
+}
+
+.bold { text-decoration: bold}
+
+#checklistLink {
+  text-decoration: underline;
+}
+
+.activityQuestions{
+  background-color: #f8d6bd;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  width: 35%;
+  overflow: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 3%;
+  margin-top: 0;
+  margin-bottom: 2;
+  font-size: 14pt;
+  float: center;
+}
+
+.stepExtras{
+  background-color: #f8d6bd;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 76%;
+  overflow: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-family: "Zilla Slab", serif;
+  float: center;
+}
+
+.Width{width: 80%;}
+
+.headingTest {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-left: 25%;
+  margin-top: 0;
+  width: 60%;
+}
+
+.headingAct {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-left: 35%;
+  width: 50%;
+}
+
+.textAct {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 35%;
+  width: 50%;
+}
+
+.imgAct {
+  width: 400%;
+  height: 115%;
+  margin-left: 0;
+}
+
+.testingText {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 25%;
+  width: 60%;
+}
+
+.cardLine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.imgTest {
+  width: 140%;
+  height: 35%;
+  margin-left: 0;
+}
+
+.imgTesting {
+  width: 130%;
+  height: 93%;
+  margin-left: -30%;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.imageTesting {
+  width: 200%;
+  height: 50%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testingP {
+  text-align: left;
+  margin: 0;
+  float: left;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+}
+
+.testingLinks {
+  font-size: 20pt;
+  text-decoration: underline;
+  font-family: "Zilla Slab", serif;
+  line-height: 1.5;
+  margin-top: 5%;
+}
+
+.testingLinks:hover {
+  color: #6b838f;
+}
+
+.underlineLinks {
+  text-decoration: underline;
+}
+
+.testTexts {
+  font-size: 14pt;
+  text-align: left;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  width: 70%;
+}
+
+.headingTesting {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-left: 35%;
+  margin-top: 0;
+  width: 60%;
+}
+
+.testingTexts {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 35%;
+  width: 60%;
+}
+
+#testSide {
+  width: 50%;
+  margin:0;
+  padding: 0;
+}
+
+.imageSat{
+  width: 120%;
+  height: 15%;
+  margin-left: -40%;
+}
+
+.headingSat {
+  font-size: 25pt;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+#listItems {
+  text-align: left;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 170%;
+  width: 80%;
+}
+
+.headingTests {
+  font-size: 25pt;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+  padding-right: 2%;
+  margin-right: 2%;
+}
+
+table, th, td {
+  margin-top: 4%;
+  border: 0;
+  border-collapse: collapse;
+  overflow: visible;
+}
+th, td {
+  padding: 0;
+}
+
+/* End CSS for Testing.html page */
+
+/* link cards */
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardLinks {
+  background-color: #f8d6bd;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: left;
+  width: 30%;
+  overflow: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.redirects {
+  font-size: 20pt;
+  text-decoration: underline;
+  font-family: "Zilla Slab", serif;
+  line-height: 1.5;
+  margin-top: 4%;
+}
+
+.redirects:hover {
+  color: #6b838f;
+}
+
+#firstQ {
+  margin-bottom: 4%;
+}
+
+.linksText {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 15pt;
+}
+
+.titleLinks {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 270%;
+  margin-bottom: 4%;
+}
+
+.headingLinks {
+  font-size: 220%;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+  margin-bottom: 4%;
+  text-align: left;
+}
+
+.subheadingLinks {
+  font-size: 170%;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+
+
+/* FAQ's */
+.titleFAQ {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+.foldingFAQ {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 8% 10%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 150%;
+  transition: 0.5s;
+  font-family: "Zilla Slab", serif;
+  margin-top: 0;
+}
+
+/*Highlights drop down menus on hover*/
+.active,
+.foldingFAQ:hover {
+  background-color: #ccc;
+}
+.foldingFAQ:after {
+  content: "\02795"; /*unicode for plus sign*/
+  font-size: 60%;
+  color: #777;
+  float: right;
+  margin-left: 20%;
+  margin-right: 0;
+  border: none;
+  padding: 0;
+  margin-top: 8%;
+}
+.active:after {
+  content: "\2796";
+  margin-top: 8%;
+}
+/*Styling for text under drop down*/
+.board {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  padding: 5% 6%;
+  background-color: #eee;
+}
+
+/*Question tabs*/
+.responsiveFAQ {
+  padding-left: 6%;
+  padding-top: 8%;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700%) {
+  .responsiveFAQ {
+    width: 49.99999%;
+    margin: 6% 0;
+  }
+}
+
+@media only screen and (max-width: 200%) {
+  .responsiveFAQ {
+    width: 100%;
+  }
+}
+
+.bigFAQ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.careers {
+  text-decoration: underline;
+  color: #7b9dad;
+}
+
+.careers:hover {
+  color: #5b7380;
+}
+
+.insideText {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 12pt;
+}
+/*footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 15%;
+   object-fit: cover;
+  text-align: center;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 5%;
+   object-fit: cover;
+  text-align: center;
+}
